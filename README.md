@@ -14,9 +14,11 @@ Other features we chose to use are `get_type_token_ratio`, `get_lemmatized_perce
 In the end, we got an accuracy score of 75% on the test set. The model did work as we expected. We had to drop the `has_asian_name` feature. This feature turned out less useful than `has_european_names`. There is some randomness to the model. In the recent run, we got 77.6% accuracy on our dev set. 
 
 These are our accuracy scores on the dev set during feature ablation. We can see that the accuracy score is higher once `has_asian_name` is removed.
+
 ![image](https://github.com/Sandrine2016/Language-background-classification/blob/main/result/result1.JPG)
 
 The decision tree that the model generated is shown below.
+
 ![image](https://github.com/Sandrine2016/Language-background-classification/blob/main/result/result2.JPG)
 
 ## Group Contributions
