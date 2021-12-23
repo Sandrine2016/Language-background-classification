@@ -13,11 +13,11 @@ Other features we chose to use are `get_type_token_ratio`, `get_lemmatized_perce
 ## Results
 In the end, we got an accuracy score of 75% on the test set. The model did work as we expected. We had to drop the `has_asian_name` feature. This feature turned out less useful than `has_european_names`. There is some randomness to the model. In the recent run, we got 77.6% accuracy on our dev set. 
 
-These are our accuracy scores on the dev set during feature ablation. We can see that the accuracy score is higher once has_european_name is removed.
-[!image1]("result/result1.JPG")
+These are our accuracy scores on the dev set during feature ablation. We can see that the accuracy score is higher once `has_asian_name` is removed.
+[!image](https://github.com/Sandrine2016/Language-background-classification/blob/main/result/result1.JPG)
 
 The decision tree that the model generated is shown below.
-[!image2]("result/result2.JPG")
+[!image](https://github.com/Sandrine2016/Language-background-classification/blob/main/result/result2.JPG)
 
 ## Group Contributions
 Every member of our group contributed significantly. We started by discussing which ten features we should use in our model, then we each began working on our own parts. Chao Ding extracted all the relevant text from the HTML files. Shengjie Zhang and Mrinal Grover cooperated and created the 10 features in the Feature Extraction part. Oksana Necio built and tested a decision tree classifier based on the extracted features, as well as wrote the report.
